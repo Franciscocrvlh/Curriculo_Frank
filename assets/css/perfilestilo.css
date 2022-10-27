@@ -1,0 +1,454 @@
+/*
+* 
+* @author Francisco G.Cavalcante
+*/
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.row{
+    margin: 0;
+    
+}
+
+
+/* header .container-fluir{
+    padding: 70px 0;
+    border: 1px solid blue;
+} */
+
+.align-self-center h4{
+    color: white;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/* header, .navbar{
+background-color: #353D41;
+} */
+
+#nav-container{
+   
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+    
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #ffffff;
+
+}
+
+#navbar-links a {
+    color:#FFF
+}
+
+nav h3{
+    color: white;
+}
+
+nav .icones img{
+
+    margin-right: 5px;
+}
+
+
+/* #sobre-menu{
+    
+    margin-left: 50px;
+} */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand:hover{
+    color:#FFF;
+}
+
+.FGClogotipo{
+        margin: 10px;
+}
+
+
+h2{
+    color:black;
+}
+
+.p10{
+    align-items: center;
+}
+.conteudo_perfil{
+    margin-top: 10px;
+    /* background: #dcdcdc; */
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    /* flex-direction: row; */
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+}
+
+/* .container{
+    width: 850px;
+} */
+
+/* Layout */
+/* html,body, #home{
+    margin: 30px;
+    border: 6px solid green;
+    height: 100%;
+} */
+
+/* #mat3{
+    border: 10px solid red;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+} */
+
+
+
+/* .row{
+    border: 3px solid green;
+    
+} */
+
+
+/* body{
+    background: linear-gradient(100deg,#57ff41,blue);
+                background-attachment: fixed;
+                font-family: Arial, Helvetica, sans-serif;
+
+} */
+
+
+
+
+/* nav{
+    width: auto;
+    padding: auto;
+}
+
+nav ul {
+    list-style: none;
+    
+    padding-right: 15px;
+    border: 1px solid red;
+}
+
+nav ul li{
+    border: 1px solid blue;
+    
+    padding-right: 25px;
+    float: left;
+    margin: 0 5px;
+} */
+
+.card{
+    
+    background:rgba(0,0,0,0.1);
+    margin: 30px;
+    /* padding: 50px; */
+    float: left;
+    /* height: 250px;
+    width: 250px; */
+}
+
+
+.card img{
+    
+    /* width: 70%;
+    height: 70%; */
+    margin: 5px;
+
+    
+}
+
+/* nav .icones ul {
+    border: 5px solid rgb(231, 10, 194);
+    float:left;
+    
+} */
+
+/* section{
+    background-image:url(../imagens/wallppdesenvolvedor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-;
+    width: auto;
+} */
+/**************************** tooltips **********************************/
+
+
+/**************************** HABALIDADES **********************************/
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(112, 235, 55);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: red;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 40px;
+  }
+
+
+/* Barra de navegação */
+
+/* nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#9bf0e1;
+    }
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255, .5);
+    border-color:rgba(255, 255, 255, 0.5);
+} */
+
+/* .divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+} */
+
+/* CAPA */
+
+/* .capa{
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+}
+
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    border: 1px solid yellow;
+    width: 5%;
+} */
+
+/* Estrutura conteúdos */
+/* .caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+    
+}
+
+#servicos h2,h3 {
+    color: #7c25f8;
+} */
+
+
+
+/* #recursos h2, h3 {
+    color: #9bf0e1;
+} */
+
+/* #recursos h2{
+    color:white;
+}
+
+#recursos h3{
+    color:#9bf0e1;
+} */
+
+/* .albuns{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    /* -webkit-transform: rotate(30deg); Chrome, Safari, Opera  */
+    /* padding-left: 80px;
+} */ 
+
+/* Rodape */
+/* footer{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position:relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    text-decoration: none;
+    color: #9bf0e1;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 10px;
+} */
+
+
+/* Tipografia */
+/* h1{
+    font-weight: 900;
+    letter-spacing:-0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+} */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+        .btn-custom{
+            margin: 10px 15px;
+            font-size: 0.80em;
+        }
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 4em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 5em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+    h1 {
+        font-size: 6em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ } */

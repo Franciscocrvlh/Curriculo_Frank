@@ -1,0 +1,105 @@
+#caixa{
+    
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+  
+}
+
+#caixa01{
+   
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    border-radius: 150px;
+    margin: 20px;
+   
+}
+
+
+#caixa02{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+     /* padding:10px; */
+    margin: 10px; 
+    
+}
+    /* -webkit-border-radius: 20px 90px;
+    -webkit-border-radius: 20px 90px;
+    border-radius: 20px 90px; */
+
+
+
+#caixa03{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* padding:10px; */
+    margin: 10px;
+}
+    /* -webkit-border-radius: 20px 90px;
+    -webkit-border-radius: 20px 90px;
+    border-radius: 20px 90px; */
+
+
+
+#caixa04{
+    float:right;
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px 50px 80px 100px;
+}
+
+
+#caixa05{
+    float:right;
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding:10px;
+    margin: 10px; 
+    -webkit-border-radius: 20px 90px;
+    -webkit-border-radius: 20px 90px;
+    border-radius: 20px 90px;
+}
+
+#caixa06{
+    float:right;
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding:50px;
+    margin: 10px;
+    box-sizing: border-box;    
+
+    /* -webkit-border-radius: 20px 90px;
+    -webkit-border-radius: 20px 90px;
+    border-radius: 20px 90px; */
+}
+
+#caixa:hover{
+    background:yellow;
+}
+
+
+/* .arredondamento{
+border-radius: 10px 50px 80px 100px;
+
+} */

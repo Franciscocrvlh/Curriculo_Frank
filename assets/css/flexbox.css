@@ -1,0 +1,477 @@
+#projetos{
+    top:30px;
+    position: absolute;
+    right: 30px;
+}
+
+#projetos a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#CSS3{
+    top:30px;
+    position: absolute;
+    right: 150px;
+    margin-right: 5px;
+
+}
+
+#CSS3 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reserse
+    */
+    flex-direction:row-reverse;
+}
+
+#conteudorow{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reserse
+    */
+    flex-direction:row;
+}
+
+#conteudo01{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reserse
+    */
+    flex-direction: column;
+}
+
+#conteudo02{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: column-reverse;
+}
+
+#conteudo03{
+    background: #dcdcdc;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:nowrap;
+}
+
+#conteudo04{
+    background: #dcdcdc;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+}
+
+#conteudo05{
+    background: #dcdcdc;
+    width: 230px;
+    height: 600px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+}
+
+#conteudo06{
+    background: #dcdcdc;
+    width: 230px;
+    height: 600px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: flex-start;
+}
+#conteudo07{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: flex-end;
+}
+
+#conteudo08{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+    
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: center;
+}
+#conteudo09{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-between;
+}
+
+#conteudo10{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+}
+
+#conteudod{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: stretch;
+}
+
+#conteudo11{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: stretch;
+}
+
+#conteudo12{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: center;
+}
+
+#conteudo13{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: flex-start;
+}
+
+#conteudo14{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: flex-end;
+}
+
+#conteudo15{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: baseline;
+}
+
+
+#conteudo15{
+    background: #dcdcdc;
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    /* 
+    flex- tags aqui:
+    row|row-reverse|column|column-reverse
+    */
+    flex-direction: row;
+
+    /* 
+    nowrap|wrap|wrap-reverse
+    */
+    flex-wrap:wrap;
+
+    /* 
+    flex-start| flex-end|center|space-between|space-around
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline
+    */
+    align-items: baseline;
+}
+
+
+.item{
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    /* margin: 10px; */
+}
+
+.item1{
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    /* margin: 10px; */
+}
+
+.itemd{
+    
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    /* margin: 10px; */
+}
+/* ************************************ */
+/* Flexbox Nivel 1  */
+/* Define proporção de espaço ocupado por um item */
+/* flex-grow: 0; */
+
+/* Define a capacidade de redução de tamanho do item */
+/* flex-shrink: 1; */
+
+.i1{
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    /* margin: 10px; */
+
+    flex-shrink: 1;
+}
+
+/* .i2{
+
+}
+
+.i3{
+
+}
+
+.i4{
+
+} */

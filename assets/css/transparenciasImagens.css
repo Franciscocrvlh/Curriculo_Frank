@@ -1,0 +1,124 @@
+#texto{
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+
+#titulo{
+    /* width: auto; */
+    border: 1px solid red;
+    position: relative;
+    /* float: left; */
+    /* position:; */
+
+}
+
+.botao  {
+    text-decoration: none;
+    color: black;
+    float: right;
+    right: 10%;
+    top: 18px;
+    /* top:20px; */
+    /* position: fixed; */
+    position:absolute;
+    /* border: 1px solid red; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: url(../imagens/camera.png);
+    margin: 10px;
+    float:left;
+    /* border: 1px solid red; */
+}
+#caixa01{
+    width: 300px;
+    height: 300px;
+    background: url(../imagens/camera.png);
+    margin: 10px;
+    float:left;
+    border-radius: 20px;
+}
+
+#caixa02{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(red,white,green); 
+    margin: 10px;
+    float:left;
+}
+
+#caixa03{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(to left,red,white,green); 
+    margin: 10px;
+    float:left;
+}
+
+#caixa04{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(to right,red,white,green); 
+    margin: 10px;
+    float:left;
+}
+
+#caixa05{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(to top,red,white,green); 
+    margin: 10px;
+    float:left;
+}
+#caixa06{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(30deg,red,white,green); 
+    margin: 10px;
+    float:left;
+}
+
+#caixa07{
+    width: 300px;
+    height: 300px;
+    background:radial-gradient(red,white,green); 
+    margin: 10px;
+    float:left;
+}
+
+#caixa h1{
+    background: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid red; */
+}
+#caixa01 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa02 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa03 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa04 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa05 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa06 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+#caixa07 h1{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+

@@ -1,0 +1,174 @@
+/*
+* 
+* @author Francisco G.Cavalcante
+*/
+/* /////////////////////////////////////////// NAVBAR - MENU ////////////////////////////////////////// */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* /////////////////////////////////////////// NAVBAR - MENU ////////////////////////////////////////// */
+.FGC {
+    /* max-width: 100%; */
+    /* height: auto; */
+     border-radius: 100px;
+    padding: 10px;
+    /* align-self:center;  */
+}
+
+.align-self-center h4{
+    color: white;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+
+
+#nav-container{
+   
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+    
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #ffffff;
+
+}
+
+#navbar-links a {
+    color:#FFF
+}
+
+nav h3{
+    color: white;
+}
+
+nav .icones img{
+
+    margin-right: 5px;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand:hover{
+    color:#FFF;
+}
+
+.FGClogotipo{
+        margin: 10px;
+}
+
+
+h2{
+    color:black;
+}
+
+.p10{
+    align-items: center;
+}
+.conteudo_perfil{
+    margin-top: 10px;
+    /* background: #dcdcdc; */
+    /* width: 230px; */
+    height: 300px;
+    display: flex;
+    
+    
+
+    
+    flex-wrap:wrap;
+
+  
+    justify-content: space-around;
+}
+
+
+
+.card{
+    
+    background:rgba(0,0,0,0.1);
+    margin: 30px;
+    /* padding: 50px; */
+    float: left;
+    /* height: 250px;
+    width: 250px; */
+}
+
+
+.card img{
+    
+    /* width: 70%;
+    height: 70%; */
+    margin: 5px;
+
+    
+}
+
+
+
+
+/**************************** HABALIDADES **********************************/
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(112, 235, 55);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: red;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 40px;
+  }
+
+

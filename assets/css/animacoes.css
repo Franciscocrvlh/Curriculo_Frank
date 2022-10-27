@@ -1,0 +1,271 @@
+/*** EFEITO DE ANIMAÇÃO ***/
+@keyframes animacao-caixacores{
+    from{ 
+        background:red;
+     }
+    to{
+        background:green;
+    }
+    
+}
+
+@keyframes animacao-caixacores01 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+ 
+  @keyframes  animacao-caixacores02{
+    from{ 
+        background-color:yellow; 
+        border-radius: 0px;
+     }
+    to{
+        background-color: blue;
+        border-radius: 300px;
+    }
+}
+
+  @keyframes  animacao-caixacores3{
+    from{ 
+        background-color: red;
+        border-radius: 0px;
+     }
+    to{
+        background-color: blue;
+        border-radius: 700px;
+    }
+}
+
+@keyframes animacao-caixa{
+    from{ 
+        background-image:url(../img/maocruzes.jpg);
+        border-radius: 0px;
+     }
+    to{
+        background-image:url(../img/300IMG03.jpg);
+        border-radius: 300px;
+    }
+}
+
+@keyframes  animacao-caixa01{
+    from{
+        background-image:url(../img/300IMG04.jpg);
+        border-radius: 0px;
+
+    }
+    
+    to{
+        background-image:url(../img/300IMG03.jpg) ;
+        border-radius: 300px;
+    }
+    
+}
+
+@keyframes  animacao-caixa02{
+    from{ 
+        background-image:url(../img/300IMG05.jpg);
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+     }
+    to{
+        background-image: url(../img/300IMG03.jpg);
+        border-radius: 300px;
+        top:200px;
+        left: 200px;
+    }
+}
+
+
+@keyframes  animacao-caixa03{
+    from{ 
+        background-image:url(../img/300IMG06.jpg);
+        border-radius: 0px;
+     }
+    to{
+        background-image: url(../img/300IMG07.jpg);
+        border-radius: 300px;
+    }
+}
+
+@keyframes  animacao-caixa04{
+    from{ 
+        background-image:url(../img/300IMG08.jpg);
+        border-radius: 0px;
+     }
+    to{
+        background-image: url(../img/300IMG09.jpg);
+        border-radius: 300px;
+    }
+}
+
+@keyframes  animacao-caixa05{
+    from{ 
+        background-image:url(../img/imagem33.jpg);
+        border-radius: 0px;
+     }
+    to{
+        background-image: url(../img/imagem44.jpg);
+        border-radius: 300px;
+    }
+}
+/* ********************************************************************************************************** */
+
+.voltar{
+float: right;
+position: absolute;
+right: 110px;
+top:35px;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: black;
+}
+
+#caixacores{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixacores;
+    animation-duration: 5s;
+   
+}
+
+#caixacores01{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixacores01;
+    animation-duration: 5s;
+}
+
+#caixacores02{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    background:yellow;
+    animation-name: animacao-caixacores02;
+    animation-duration: 5s;
+    /* animation-delay:3s; */
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+
+}
+
+#caixacores03{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixacores3;
+    animation-duration: 5s;
+}
+
+
+#caixa{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:url(../img/maocruzes.jpg);
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+#caixa01{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    background-image: url(../img/300IMG01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* animation-name: animacao-caixa01;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+    animation-direction: alternate; */
+    animation: animacao-caixa01 5s 3s 2 alternate;
+}
+
+#caixa02{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    position: relative;
+    background-image:url(../img/300IMG05.jpg);
+    animation-name: animacao-caixa02;
+    animation-duration: 5s;
+}
+
+#caixa03{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:url(../img/300IMG06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: animacao-caixa03;
+    animation-duration: 5s;
+}
+
+
+
+#caixa04{
+    float: left;
+    /* margin-left: 30px; */
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:url(../img/300IMG08.jpg);
+    animation-name: animacao-caixa04;
+    animation-duration: 5s;
+}
+
+#caixa04:hover{
+    width: 400px;
+    background:yellow;
+    transition: width 3s, background 3s;
+}
+
+
+#caixa05{
+    
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:url(../img/imagem33.jpg);
+    animation-name: animacao-caixa05;
+    animation-duration: 5s;
+}
+
+
