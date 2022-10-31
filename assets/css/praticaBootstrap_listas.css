@@ -2,21 +2,29 @@ body{
     margin: 10px;
 }
 
-img{
+header{
+    background-color: rgb(99, 0, 180);
     height: 150px;
-    width: 100%;
 }
 
-.flex-container{
+img{
+    height: 130px;
+}
+
+ /* img {
+    height: 150px;
+} */
+
+/* .flex-container{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 
-h2{
+/* h2{
     text-align: center;
-}
+} */
 
 /* .perfil{
     color: yellow;
@@ -52,6 +60,7 @@ background-color: rgb(255, 116, 2);
 a:hover{
 /* background-position: right bottom; */
 color: #fff;
+text-decoration: none;
 }
 
 
@@ -69,7 +78,7 @@ color: #fff;
 
 
 
-a button{
+/* a button{
     background-color: rgb(23, 122, 3);
     padding: 20px;
     border-radius: 20px;
@@ -78,25 +87,20 @@ a button{
     color: yellow;
     font-weight: bold;
     
-}
+} */
 
-a button:hover{
+/* a button:hover{
     
     background-image:linear-gradient(to right, rgb(255, 94, 0), rgb(255, 94, 0),rgb(167, 165, 165), blue, blue);
     color: #fff;
     
-}
+} */
 
 
- .container_button { 
+ /* .container_button { 
     height: 100px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-
-
-
-
+  } */

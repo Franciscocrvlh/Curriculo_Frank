@@ -7,9 +7,9 @@ img{
     width: 100%;
 }
 
-.flex-container{
+.flex-container-center{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
