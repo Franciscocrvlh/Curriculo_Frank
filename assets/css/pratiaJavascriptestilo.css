@@ -1,0 +1,127 @@
+body{
+    margin: 10px;
+}
+
+header{
+    background-color: rgb(255, 251, 4);
+    height: 150px;
+}
+
+img{
+    height: 130px;
+}
+
+a button{
+    background-color: rgb(23, 122, 3);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    
+    font-weight: bold;
+    
+}
+
+a button:hover{
+    background-image:linear-gradient(to right, yellow, yellow,rgb(209, 209, 209), yellow, yellow);
+    color: #fff;
+}
+
+img:hover {
+    border: 1px solid red;
+    padding: 10px;
+    border-color: #fff;
+}
+
+/* .flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+/* h2{
+    text-align: center;
+} */
+
+/* .perfil{
+    color: yellow;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+
+
+ul  {   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul a {
+/* border: 1px solid red; */
+width: 300px;
+height: 40px;
+margin-bottom: 3px;
+border-radius: 30pt;
+font-weight: bold;
+display: block;
+color: rgb(255, 230, 0);
+text-decoration: none;
+/* text-indent: 40px; */
+line-height: 40px;
+background-color: rgb(172, 171, 171);
+
+/* background: url(../imagens/menu.png)no-repeat left bottom; */
+}
+
+a:hover{
+/* background-position: right bottom; */
+color: #fff;
+text-decoration: none;
+}
+
+
+
+
+/* button {
+    
+    background-color: rgb(23, 122, 3);
+    padding: 20px;
+    border-radius: 20px;
+    
+} */
+
+
+
+
+
+/* a button{
+    background-color: rgb(23, 122, 3);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+    
+} */
+
+/* a button:hover{
+    
+    background-image:linear-gradient(to right, rgb(255, 94, 0), rgb(255, 94, 0),rgb(167, 165, 165), blue, blue);
+    color: #fff;
+    
+} */
+
+
+ /* .container_button { 
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
