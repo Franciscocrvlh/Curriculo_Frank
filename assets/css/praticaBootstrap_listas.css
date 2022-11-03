@@ -11,6 +11,22 @@ img{
     height: 130px;
 }
 
+a button{
+    background-color: rgb(23, 122, 3);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+    
+}
+
+a button:hover{
+    background-image:linear-gradient(to right, rgb(132, 0, 255), rgb(132, 0, 255),rgb(167, 165, 165), rgb(132, 0, 255),rgb(132, 0, 255));
+    color: #fff;
+}
+
  /* img {
     height: 150px;
 } */
