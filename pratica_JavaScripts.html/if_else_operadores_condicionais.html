@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else if</title>
+    <script>
+        document.write('<h2> Se = if / Se não = else</h2>')
+        document.write('<h2> if então verdadeiro (true) e else então falso</h2>')
+
+        if(false) {
+            document.write('Entrou dento do bloco if (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco else (falso)')
+        }
+        
+        document.write('</br><img src="../assets/img/senao.png">')
+        document.write('</br>')
+        document.write('</br>')
+        
+        
+        if(true) {
+            document.write('Entrou dento do bloco if (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco else (falso)')
+        }
+        
+        document.write('</br><img src="../assets/img/seTrue.png">')
+        document.write('</br>')
+        document.write('</br>')
+        
+
+        document.write('<h2> = =  (Verifica se o valor é igual)  Se = if / Se não = else <br> Resultado: <br> if (2 = = 7)</h2>')
+        document.write('</br><img src="../assets/img/seigual.png"></br>')
+
+        if(2==7) {
+            document.write('Entrou dento do bloco if 2 == 7 se igual então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco if 2 = = 7 se igual então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        
+        if(2==2) {
+            document.write('Entrou dento do bloco if 2 = = 2 se igual então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco if 2 = = 7 se igual então (falso)')
+        }
+
+        
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<h2> Idêntico = = = (Verifica se o valor é igual e se é do mesmo tipo)</h2>')
+
+        document.write('<img src="../assets/img/seidentico.png"></br>')
+        if(2===2) {
+            document.write('Entrou dento do bloco se (if 2 = = = 2) igual então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if 2 = = = 2) igual então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/senaoidentico.png"></br>')
+        
+        if(2===7) {
+            document.write('Entrou dento do bloco se (if 2 = = = 2) igual então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if 2 = = = 7) igual então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        
+        document.write('<h2> Diferente ! = (Verifica se os valores comparados são diferente)</h2>')
+        document.write('<img src="../assets/img/senaodiferente.png"></br>')
+        
+        if('abc' != 'abc') {
+            document.write('Entrou dento do bloco se (if abc ! = ab ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if abc ! = abc ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/sediferente.png"></br>')
+
+        if('abc' != 'ab') {
+            document.write('Entrou dento do bloco se (if abc ! = ab ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if abc ! = abc ) comparados então (falso)')
+        }
+        
+        document.write('</br>')
+        document.write('</br>')
+       
+        document.write('<h2> Não identico != = (Verifica se os valores comparados são diferentes e de tipos diferentes)</h2>')
+        document.write('<img src="../assets/img/naoidentico.png"></br>')
+        
+        if(2 !== 'abc') {
+            document.write('Entrou dento do bloco se (if 2 ! = = abc ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if abc ! = abc ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/naoidenticofalso.png"></br>')
+        
+        if(2 !== 5) {
+            document.write('Entrou dento do bloco se (if 2 ! = = abc ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (if 2 ! = = 2 ) comparados então (falso)')
+        }
+         
+         document.write('<h2> Menor < (Verifica se o valor da esquerda é menor que o valor da direita)</h2>')
+        document.write('<img src="../assets/img/menorverdadeiro.png"></br>')
+        
+        if(2 < 5) {
+            document.write('Entrou dento do bloco se (IF  2 < 5 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 5 < 2 ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/menorfalso.png"></br>')
+        
+        if(5 < 2) {
+            document.write('Entrou dento do bloco se (IF 5 < 2 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 5 < 2 ) comparados então (falso)')
+        }
+// Ok -----OK------------------------------------------------------
+        document.write('<h2> Maior > (Verifica se o valor d esquerda é maior que o valor da direita)</h2>')
+        document.write('<img src="../assets/img/maiorfalso.png"></br>')
+        
+        if(2 > 5) {
+            document.write('Entrou dento do bloco se (IF  2 > 5 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 2 > 5 ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/maiorverdadeiro.png"></br>')
+        
+        if(5 > 2) {
+            document.write('Entrou dento do bloco se (IF 5 > 2 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 5 > 2 ) comparados então (falso)')
+        }
+        // Ok EM CIMA-----OK------------------------------------------------------
+        document.write('<h2> Menor igual < = (Verifica se o valor da esquerda é menor ou igual ao valor da direita)</h2>')
+        document.write('<img src="../assets/img/menorigualverdadeiro.png"></br>')
+        
+        if(2 <= 5) {
+            document.write('Entrou dento do bloco se (IF  2 < = 5 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 2 < =  5 ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/menorigualfalso.png"></br>')
+        
+        if(5 <= 2) {
+            document.write('Entrou dento do bloco se (IF 5 <= 2 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 5 <= 2 ) comparados então (falso)')
+        }
+        // Ok EM CIMA-----AGORA RESOLVE BAIXO------------------------------------------------------
+        document.write('<h2> Maior igual > = (Verifica se o valor da esquerda é maior ou igual ao valor da direita)</h2>')
+        document.write('<img src="../assets/img/maiorigualfalso.png"></br>')
+        
+        if(2 >= 5) {
+            document.write('Entrou dento do bloco se (IF  2 > = 5 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 2 > =  5 ) comparados então (falso)')
+        }
+
+        document.write('</br>')
+        document.write('</br>')
+        document.write('<img src="../assets/img/maiorigualverdadeiro.png"></br>')
+        
+        if(5 >= 2) {
+            document.write('Entrou dento do bloco se (IF 5 > = 2 ) comparados então (verdadeiro)')
+        }else {
+            document.write('Entrou dento do bloco se (IF 5 > = 2 ) comparados então (falso)')
+        }
+        
+
+    </script>
+</head>
+<body>
+<!-- <img src="" alt=""> -->
+</body>
+</html>
