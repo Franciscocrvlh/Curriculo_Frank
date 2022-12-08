@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica operadores comparacao</title>
+    <script>
+
+        document.write('<h2 style="text-align:center ;"> Calculando Média com JavaScript</h2>')
+        document.write('<h2 style="text-align:center ;">Nota Média: 7.0 - Aprovado</h2>')
+        document.write('<h2 style="text-align:center ;">Nota Média: 4.0 - Reprovado</h2>')
+        document.write('<hr>')
+
+        var media = 7
+        var nota = 6
+        var nota1, nota2,nota3;
+
+        nota1= prompt("Informe a primeira nota: ");
+        nota1= eval(nota1);
+        
+        nota2= prompt("Informe a segunda nota: ");
+        nota2= eval(nota2);
+
+        nota3= prompt ("Informe aqui a terceira nota: " );
+        nota3= eval(nota3);
+
+        media= (nota1+ nota2+ nota3) /3;{
+            document.write("A sua média é:  ", media);
+        }
+
+        if( media >=  nota){
+            document.write('</br> Responde: Aprovado')
+        }else {
+            document.write('</br> Responder: Reprovado')
+        }
+
+    </script>
+</head>
+<body>
+    <!-- <hr> -->
+</body>
+</html>
