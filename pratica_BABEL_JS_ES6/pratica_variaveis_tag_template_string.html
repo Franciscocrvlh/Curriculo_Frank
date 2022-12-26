@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de declaração de variáveis Var e Let JS ES6</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+       // escopos: função, dentro bloco e fora global
+       let nome = 'Frankkel' 
+    
+       console.log('Oi,' + nome + ', tudo bem?')
+       console.log(`
+       Oi ${nome}, 
+        tudo bem?`)
+
+       console.log(`7 + 7 = ${7+7}`)
+
+       function calcular(x,y){
+        return x * y
+       }
+
+       console.log(`A multiplicação de 8 * 8 é: ${calcular(8,8)}`)
+
+    </script>
+
+    <style>
+        h3{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid red;
+            width: 950px;
+            /* height: 250px; */
+        }
+    </style>
+
+</head>
+<body>
+<h3>Operadores de declaração de variáveis Tag template_string</h3>
+<div>
+    <img src="../assets/img/JSES6/template_string.png">
+</div>
+
+
+</body>
+</html>

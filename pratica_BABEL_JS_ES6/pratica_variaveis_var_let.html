@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de declaração de variáveis Var e Let JS ES6</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+       // escopos: função, dentro bloco e fora global
+       let serie = 'Friends' // Let 
+       
+       {
+        let serie = 'The Walking Dead' // DENTRO Var
+        console.log('dentro do bloco: ' + serie)
+       }
+        // fora do bloco - Global
+       console.log('fora do bloco: ' + serie)
+
+    </script>
+
+    <style>
+        h3{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid red;
+            width: 450px;
+          
+        }
+    </style>
+
+</head>
+<body>
+<h3>Operadores de declaração de variáveis Var e Let</h3>
+
+<div>
+    <img  src="../assets/img/JSES6/OD_var_let.png">
+</div>
+<br>
+<h3>
+    Declaração escopos que precisa saber concatenar var?
+</h3>
+<div>
+    <img src="../assets/img/JSES6/Var.png">
+</div>
+<h3>
+    Console.log então window_global significado chama janela de comando.
+</h3>
+<div>
+    <img src="../assets/img/JSES6/window_global.png">
+</div>
+<h3>
+    Global tem chama var e outra tambem tem chama Função var
+</h3>
+<div>
+    <img src="../assets/img/JSES6/GlobVar_FunVar.png" >
+</div>
+<h3>
+    Global com Se = if dentro do bloco - global
+</h3>
+<div>
+    <img src="../assets/img/JSES6/IF COM VAR.png">
+</div>
+<h3>
+    Função com Se = if dentro do bloco - função <br>
+    não funcionar!
+</h3>
+<div>
+    <img src="../assets/img/JSES6/FNC IF VAR.png">
+</div>
+<h3>
+    Global Var e Var dentro bloco <br> var = 'Friends' mas dentro var = 'The Walking Dead' &nbsp; <br> só aceito dentro bloco <br> causa segunda var.
+</h3>
+<div>
+    <img src="../assets/img/JSES6/global var e var dentro bloco.png">
+</div>
+<h3>
+    Global Let e Let dentro bloco é diferente.
+</h3>
+<div>
+    <img src="../assets/img/JSES6/diferente Let.png">
+</div>
+<h3>
+    Global Let e Var dentro bloco que não aceita!
+</h3>
+<div>
+    <img src="../assets/img/JSES6/GLet_DVar.png">
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de declaração de variáveis Var e Let JS ES6</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+       // escopos: função, dentro bloco e fora global
+       const serie = 'Friends' 
+       
+       
+
+       function x(){
+        const serie = 'Flash'
+        console.log('escopo dentro da funcao: ' + serie)
+        
+       }
+
+       x()
+
+       console.log('escopo global: ' + serie)
+
+    </script>
+
+    <style>
+        h3{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid red;
+            width: 950px;
+            height: 250px;
+        }
+    </style>
+
+</head>
+<body>
+<h3>Operadores de declaração de variáveis Tag Const</h3>
+<br>
+<h3>
+    const = variaveis então chama const serie:Friends e outra serie = variaveis então chama serie: Flash. <br> 
+    então resultado é const primeiro e não é serie do variaveis.
+</h3>
+<div>
+    <img  src="../assets/img/JSES6/const.png">
+</div>
+
+<h3>
+const serie: Friends é escopo global e outra escopo dentro função const serie:Flash <br> então resultado...
+</h3>
+<div>
+    <img src="../assets/img/JSES6/const global_const funcao.png">
+</div>
+
+</body>
+</html>
